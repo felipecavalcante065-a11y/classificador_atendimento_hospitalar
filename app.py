@@ -139,7 +139,7 @@ def processar_triagem():
         # ----------------------------------------------------------------------
 
         payload = {
-            "model": "",
+            "model": "inclusionai/ling-3.0-flash:free",
             "messages": [
                 {
                     "role": "system",
